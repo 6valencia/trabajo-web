@@ -206,16 +206,47 @@ body {
     padding: 5em 2em;
 }
 
-#coleccion {
+/* #coleccion {
     margin: 5em 7em;
+} */
+
+#coleccion h3 {
+    margin: .5em 1.5em;
 }
 
 .coleccion-img {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
+   height: 500px;
 }
 
+.container {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    max-width: 100%;
+}
+
+/* [class*="col"]{
+    background-color: darkseagreen;
+    border: 2px solid aliceblue;
+    color: white;
+} */
+
 .row {
-    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-right: none;
+    padding-left: none;
+}
+
+.row div img {
+
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
