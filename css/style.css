@@ -248,5 +248,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+      }
+
+
+.row div img:hover {
+
+   opacity: 50%;
     
 }
