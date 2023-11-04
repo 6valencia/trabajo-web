@@ -4,6 +4,10 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Space Grotesk', sans-serif;
+    text-decoration: none;
+    color: white;
+    vertical-align: baseline;
+
 }
 
 :root {
@@ -21,6 +25,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
 
 h1 {
     font-family: 'Space Grotesk', sans-serif;
@@ -103,8 +108,12 @@ p {
     font-family: 'Space Grotesk', sans-serif;
     font-display: swap;
     color: var(--rosa3);
-    font-size: 2.7vh;
+    font-size: 2vh;
     margin-bottom: 0;
+}
+
+.mb-4 .btn{
+    font-size: 2em;
 }
 
 
@@ -190,10 +199,14 @@ a:active { text-decoration: none; }
 }
 
 
-.logo-producto {
+.logo-caseify {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.logo-caseify i {
+    color: var(--rosa3);
 }
 
 .titulo {
@@ -300,6 +313,7 @@ a:active { text-decoration: none; }
     padding: 0;
     justify-content: center;
     max-width: 100%;
+    padding-bottom: 5em;
 }
 
 .row {
@@ -308,6 +322,8 @@ a:active { text-decoration: none; }
     margin: 0;
     padding-right: none;
     padding-left: none;
+    max-height: 500px;
+
 }
 
 .row div img {
@@ -320,4 +336,14 @@ a:active { text-decoration: none; }
     justify-content: center;
     align-items: center;
     
+}
+
+
+
+
+
+
+
+.bg {
+    background-color: var(--verde3);
 }
