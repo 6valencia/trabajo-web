@@ -338,7 +338,57 @@ a:active { text-decoration: none; }
     
 }
 
+#reseña {
+    padding: 2em 0;
+}
 
+#reseña .reseña-slider {
+    /* height: 1200px; */
+    border: 1px solid var(--verde3);
+    padding: 1rem;
+}
+
+#reseña .reseña-slider .box{
+    border: 0px solid red;
+    background: var(--verde2);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    /* outline-offset: -1rem;
+    outline: blue; */
+    transition: .2s linear;
+}
+
+.reseña-wrapper p, .reseña-swiper h4 {
+    color: black;
+}
+
+#reseña .reseña-slider .box img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: .5rem;
+}
+
+#reseña .reseña-slider .box p {
+    padding: 1rem 0;
+    line-height: 1.8;
+    font-size: 1.5rem;
+}
+
+#reseña .reseña-slider .box h4 {
+    padding-bottom: .5rem;
+    line-height: 1.8;
+    font-size: 2.2rem;
+}
+
+#reseña .reseña-slider .box .stars i {
+    color: black;
+    font-size: 1.7rem;
+}
+
+#reseña .reseña-slider .box:hover {
+    box-shadow: 1px 1px 10px 4px var(--verde3);
+}
 
 
 
