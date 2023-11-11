@@ -69,8 +69,6 @@ var swiper = new Swiper(".review-slider", {
   },
 });
 
-
-
 /**
  * A burst is a grouping of many sparks
  * A spark is some individual dom element generally used with other sparks to create interesting UI effects.

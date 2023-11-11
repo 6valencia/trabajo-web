@@ -4,7 +4,13 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Space Grotesk', sans-serif;
+    text-decoration: none;
+    color: white;
+    vertical-align: baseline;
+
 }
+
+/* COLORES */
 
 :root {
     --fondo: #F5F5F5;
@@ -15,16 +21,26 @@
     --rosa2: #FFA8D9;
     --rosa3: #FF70BF;
 }
+
+/* BODY Y TIPOS */
+
+body {
+    background: var(--fondo);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 h1 {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 900;
     font-display: swap;
     color: var(--rosa3);
     font-size: 30vh;
-    line-height: 2;
+    line-height: 40vh;
     transition: 1s;
     overflow: auto;
-    animation: colorchange 10s infinite;
+    animation: colorchange 7s infinite;
 }
 
 @keyframes colorchange {
@@ -57,9 +73,8 @@ h2 {
     transition: 1s;
 }
 
-h3 {
+h3, span {
     font-family: 'Space Grotesk', sans-serif;
-    font-style: italic;
     font-weight: 700;
     font-display: swap;
     color: var(--rosa3);
@@ -97,15 +112,27 @@ p {
     font-family: 'Space Grotesk', sans-serif;
     font-display: swap;
     color: var(--rosa3);
-    font-size: 2.7vh;
+    font-size: 2vh;
     margin-bottom: 0;
 }
 
-body {
-    background: var(--fondo);
-    max-width: 100%;
-    overflow-x: hidden;
+.mb-4 .btn{
+    font-size: 2em;
 }
+
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+/* MENÚ */
 
 #menu {
     /* overflow: hidden; */
@@ -177,10 +204,15 @@ body {
     align-items: center;
 }
 
-.logo-mutriku {
+
+.logo-caseify {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.logo-caseify i {
+    color: var(--rosa3);
 }
 
 .titulo {
@@ -188,7 +220,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100vh;
+    height: 50vh;
+    margin-top: 24vh;
+    margin-bottom: 2vh;
     z-index: 900;
 }
 
@@ -201,20 +235,82 @@ body {
     color: var(--verde3);
 }
 
+/* BOTÓN COMPRA */
+
+.container-compra button {
+    height: 80px;
+    width: 240px;
+    border-radius: 16px;
+    border: solid 3px var(--rosa3);
+    background-color: var(--rosa3);
+    cursor: pointer;
+    outline: none;
+  
+    color: white;
+    font-size: 24px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+    margin: 0 auto;
+    margin-bottom: 7em;
+    display: block;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.spark {
+    position: absolute;
+    width: 30px;
+    height: 8px;
+    border-radius: 3px;
+    background-color: var(--verde2);
+    transform: none;
+}
+  
+.container-compra button:hover {
+    border: solid 3px var(--verde3);
+    background-color: var(--verde3);
+
+}
+
 .descripcion {
     text-align: center;
-    padding: 5em 2em;
+    padding: 5em 7em;
 }
 
-/* #coleccion {
-    margin: 5em 7em;
-} */
-
-#coleccion h3 {
-    margin: .5em 1.5em;
+.scrolling-text {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    white-space: nowrap;
 }
 
-.coleccion-img {
+/* TÍTULOS SECCIÓN */
+
+.titulo-seccion span {
+    margin: 0 30px;
+}
+
+.titulo-seccion {
+    animation: animate_text 30s linear infinite;
+    margin-top: 1em;
+}
+
+@keyframes animate_text {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+}
+
+#coleccion h3, #popular h3 {
+    margin: .3em 1.5em;
+}
+
+.coleccion-img, .popular-img {
    height: 500px;
 }
 
@@ -223,13 +319,8 @@ body {
     padding: 0;
     justify-content: center;
     max-width: 100%;
+    padding-bottom: 5em;
 }
-
-/* [class*="col"]{
-    background-color: darkseagreen;
-    border: 2px solid aliceblue;
-    color: white;
-} */
 
 .row {
     width: 100%;
@@ -237,15 +328,12 @@ body {
     margin: 0;
     padding-right: none;
     padding-left: none;
+    max-height: 500px;
+
 }
 
 .row div img {
-<<<<<<< Updated upstream
-
-    width: 100%; /* or any custom size */
-=======
     width: 100%;
->>>>>>> Stashed changes
     height: 100%; 
     object-fit: contain;
     margin: auto;
@@ -254,10 +342,8 @@ body {
     align-items: center;
     
 }
-<<<<<<< Updated upstream
-=======
 
-/* SECCIÓN COLECCIONES */
+/* SECCION COLECCIONES */
 
 #coleccion {
     padding: 2em 0;
@@ -286,7 +372,8 @@ body {
     object-fit: cover;
 }
 
-/* SECCIÓN POPULARES */
+
+/* SECCION POPULAR */
 
 #popular {
     padding: 2em 0;
@@ -316,7 +403,7 @@ body {
 }
 
 
-/* RESEÑAS */
+/* SECCION RESEÑAS */
 
 #review {
     padding: 2em 0;
@@ -704,4 +791,3 @@ body {
         color: white;
     }
 }
->>>>>>> Stashed changes
