@@ -4,6 +4,28 @@ const SPARK_ELEMENT_WIDTH = 30;
 const DISTANCE = 40;
 
 const RANDOMNESS_ON = true;
+8
+
+var swiper = new Swiper(".review-slider", {
+  loop:true,
+  spaceBetween: 20,
+  autoplay: {
+    delay: 7500,
+    disableOnInteraction: false,
+  },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1020: {
+      slidesPerView: 3,
+    },
+  },
+});
 
 /**
  * A burst is a grouping of many sparks
@@ -100,3 +122,4 @@ const makeSpark = (center, rotation) => {
 
   document.body.append(div);
 };
+

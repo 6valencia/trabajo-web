@@ -20,6 +20,7 @@
             href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
             rel="stylesheet">
         <script src="https://kit.fontawesome.com/baafaebf8a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     </head>
 
     <body>
@@ -44,7 +45,7 @@
                             <a href="#popular">POPULARES</a>
                           </button></li>
                           <li><button class="dropdown-item" type="button">
-                            <a href="#reseña">RESEÑAS</a>
+                            <a href="#review">RESEÑAS</a>
                           </button></li>
                         </ul>
                     </div>
@@ -61,7 +62,7 @@
                 <ul>
                   <li><a href="#coleccion">COLECCIONES</a></li>
                   <li><a href="#popular">POPULARES</a></li>
-                  <li><a href="#reseña">RESEÑAS</a></li>
+                  <li><a href="#review">RESEÑAS</a></li>
                   <li><a href="catalogo.html">CATÁLOGO</a></li>
                   <li><a href="about.html">ABOUT</a></li>
                 </ul>
@@ -178,7 +179,7 @@
                     </div>
                 </div>
 
-                <section id="reseña">
+                <section class="review" id="review">
                     <div class="scrolling-text">
                         <div class="titulo-seccion">
                             <span>RESEÑAS</span>
@@ -195,66 +196,58 @@
                             <span>RESEÑAS</span>
                         </div>
                     </div>
-                    <div class="swiper reseña-slider">
-                      <div class="reseña-swiper">
+                    <div class="swiper review-slider">
+                      <div class="swiper-wrapper">
                         <div class="swiper-slide box">
-                          <img src="img/reseña1.jpg" alt="">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quam voluptatum 
-                            expedita quod aliquam nihil maiores voluptas, doloremque molestiae a sequi aut 
-                            commodi tenetur magni omnis autem modi voluptatem veritatis?</p>
-                          <h4>Mari Conchi</h4>
+                          <img src="img/review1.jpg" alt="">
+                          <p>¡Increíbles fundas! Compré una con diseño de unicornio y la calidad es excepcional.
+                             Mi teléfono está protegido con estilo. ¡Definitivamente volveré por más!</p>
+                          <h4>Rosa Melo</h4>
                           <div class="stars">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star-half-stroke"></i>
-                            <!-- <i class="fa-regular fa-star-half-stroke"></i> -->
+                            <i class="fa-solid fa-star"></i>
                           </div>
                         </div>
                         <div class="swiper-slide box">
-                          <img src="img/reseña2.jpg" alt="">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quam voluptatum 
-                            expedita quod aliquam nihil maiores voluptas, doloremque molestiae a sequi aut 
-                            commodi tenetur magni omnis autem modi voluptatem veritatis?</p>
-                          <h4>Mari Conchi</h4>
+                          <img src="img/review2.jpg" alt="">
+                          <p>Amo la variedad de fundas que ofrecen. Compré una con estampado de galaxia 
+                            y todos me preguntan dónde la conseguí. ¡Envío rápido y servicio al cliente de primera!</p>
+                          <h4>Tomás Turbio</h4>
                           <div class="stars">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star-half-stroke"></i>
-                            <!-- <i class="fa-regular fa-star-half-stroke"></i> -->
+                            <i class="fa-regular fa-star"></i>
                           </div>
                         </div>
                         <div class="swiper-slide box">
-                          <img src="img/reseña3.jpg" alt="">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quam voluptatum 
-                            expedita quod aliquam nihil maiores voluptas, doloremque molestiae a sequi aut 
-                            commodi tenetur magni omnis autem modi voluptatem veritatis?</p>
-                          <h4>Mari Conchi</h4>
+                          <img src="img/review3.jpg" alt="">
+                          <p>Las fundas de esta tienda son la combinación perfecta entre protección y personalidad. La mía tiene un diseño tropical que 
+                            hace que mi teléfono destaque. ¡Altamente recomendado!</p>
+                          <h4>Lalo Cura</h4>
                           <div class="stars">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-regular fa-star-half-stroke"></i>
-                            <!-- <i class="fa-regular fa-star-half-stroke"></i> -->
                           </div>
                         </div>
                         <div class="swiper-slide box">
-                          <img src="img/reseña4.jpg" alt="">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quam voluptatum 
-                            expedita quod aliquam nihil maiores voluptas, doloremque molestiae a sequi aut 
-                            commodi tenetur magni omnis autem modi voluptatem veritatis?</p>
-                          <h4>Mari Conchi</h4>
+                          <img src="img/review4.jpg" alt="">
+                          <p>¡Divertidas y duraderas! Mi funda con diseño de gato no solo es adorable, sino que también ha resistido caídas sin daños. 
+                            Estoy muy contento con mi compra. ¡Gracias por la originalidad!</p>
+                          <h4>Elena Nito</h4>
                           <div class="stars">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star-half-stroke"></i>
-                            <!-- <i class="fa-regular fa-star-half-stroke"></i> -->
+                            <i class="fa-regular fa-star"></i>
                           </div>
                         </div>
                       </div>
@@ -337,9 +330,17 @@
         </form>
       </section>
       <!-- Section: Form -->
-  
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+    </script>  
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js\script.js"></script>
+
+
+
+    <script type="module">
+    import swiper from 'https://cdn.jsdelivr.net/npm/swiper@11.0.4/+esm'
+    </script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

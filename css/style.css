@@ -10,6 +10,8 @@
 
 }
 
+/* COLORES */
+
 :root {
     --fondo: #F5F5F5;
     --verde1: #DBFDD8;
@@ -19,6 +21,8 @@
     --rosa2: #FFA8D9;
     --rosa3: #FF70BF;
 }
+
+/* BODY Y TIPOS */
 
 body {
     background: var(--fondo);
@@ -128,6 +132,8 @@ a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
 
+/* MENÚ */
+
 #menu {
     /* overflow: hidden; */
     display: flex;
@@ -229,6 +235,8 @@ a:active { text-decoration: none; }
     color: var(--verde3);
 }
 
+/* BOTÓN COMPRA */
+
 .container-compra button {
     height: 80px;
     width: 240px;
@@ -271,16 +279,14 @@ a:active { text-decoration: none; }
     padding: 5em 7em;
 }
 
-/* #coleccion {
-    margin: 5em 7em;
-} */
-
 .scrolling-text {
     width: 100%;
     overflow: hidden;
     display: flex;
     white-space: nowrap;
 }
+
+/* TÍTULOS SECCIÓN */
 
 .titulo-seccion span {
     margin: 0 30px;
@@ -338,61 +344,53 @@ a:active { text-decoration: none; }
     
 }
 
-#reseña {
+
+/* RESEÑAS */
+
+#review {
     padding: 2em 0;
 }
 
-#reseña .reseña-slider {
-    /* height: 1200px; */
-    border: 1px solid var(--verde3);
+.review .review-slider {
     padding: 1rem;
 }
 
-#reseña .reseña-slider .box{
-    border: 0px solid red;
-    background: var(--verde2);
+.review .review-slider .box {
+    background: var(--verde3);
     border-radius: .5rem;
     text-align: center;
     padding: 3rem 2rem;
-    /* outline-offset: -1rem;
-    outline: blue; */
     transition: .2s linear;
 }
 
-.reseña-wrapper p, .reseña-swiper h4 {
-    color: black;
+.review .review-slider .box:hover {
+    box-shadow: 1px 1px 10px 4px var(--verde3);
 }
 
-#reseña .reseña-slider .box img {
+.review .review-slider .box img {
     height: 10rem;
     width: 10rem;
     border-radius: .5rem;
 }
 
-#reseña .reseña-slider .box p {
+.review .review-slider .box p {
     padding: 1rem 0;
-    line-height: 1.8;
+    line-height: 1.3;
     font-size: 1.5rem;
+    color: white;
 }
 
-#reseña .reseña-slider .box h4 {
+#review .review-slider .box h4 {
     padding-bottom: .5rem;
     line-height: 1.8;
-    font-size: 2.2rem;
+    font-size: 2rem;
+    color: white;
 }
 
-#reseña .reseña-slider .box .stars i {
-    color: black;
+#review .review-slider .box .stars i {
+    color: white;
     font-size: 1.7rem;
 }
-
-#reseña .reseña-slider .box:hover {
-    box-shadow: 1px 1px 10px 4px var(--verde3);
-}
-
-
-
-
 
 .bg {
     background-color: var(--verde3);
