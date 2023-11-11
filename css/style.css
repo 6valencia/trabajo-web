@@ -344,8 +344,68 @@ a:active { text-decoration: none; }
     
 }
 
+/* SECCION COLECCIONES */
 
-/* RESEÑAS */
+#coleccion {
+    padding: 2em 0;
+}
+
+.coleccion .coleccion-slider {
+    padding: 1rem;
+}
+
+.coleccion .coleccion-slider .box {
+    background: var(--verde3);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    transition: .2s linear;
+}
+
+.coleccion .coleccion-slider .box:hover {
+    box-shadow: 1px 1px 10px 4px var(--verde3);
+}
+
+.coleccion .coleccion-slider .box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* SECCION POPULAR */
+
+#popular {
+    padding: 2em 0;
+}
+
+.popular .popular-slider {
+    padding: 1rem;
+}
+
+.popular .popular-slider .box {
+    background: var(--verde3);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    transition: .2s linear;
+}
+
+.popular .popular-slider .box:hover {
+    box-shadow: 1px 1px 10px 4px var(--verde3);
+}
+
+.popular .popular-slider .box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* SECCION RESEÑAS */
 
 #review {
     padding: 2em 0;
