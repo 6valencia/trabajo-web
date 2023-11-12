@@ -387,7 +387,7 @@ a:active { text-decoration: none; }
     background: var(--verde3);
     border-radius: .5rem;
     text-align: center;
-    padding: 3rem 2rem;
+    /* padding: 3rem 2rem; */
     transition: .2s linear;
 }
 
