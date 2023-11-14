@@ -24,6 +24,10 @@
 
 /* BODY Y TIPOS */
 
+#active {
+    display: none;
+} 
+
 body {
     background: var(--fondo);
     max-width: 100%;
