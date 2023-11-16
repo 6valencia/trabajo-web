@@ -24,6 +24,10 @@
 
 /* BODY Y TIPOS */
 
+#active {
+    display: none;
+}
+
 body {
     background: var(--fondo);
     max-width: 100%;
@@ -457,6 +461,50 @@ a:active { text-decoration: none; }
 
 
 
+/* PÁGINA ABOUT */
+
+h7{
+    font-size: 10em;
+    font-weight: 900;
+    color: var(--rosa3);
+    font-display: swap;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 10rem;
+    margin-bottom: 3em
+}
+
+h8{
+    margin-top: 3em;
+    font-size: 3em;
+    color: #96D289;
+    align-items: center;
+}
+
+#about {
+    padding: 5rem;
+}
+
+.fotoscreadores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fotoscreadores>img{
+    margin-top: 4em;
+    bottom: 3%;
+    margin-bottom: 4em;
+}
+
+.fotoscreadores .box:hover {
+    box-shadow: 1px 1px 10px 4px var(--verde3);
+}
+
+
+
 
 
 
@@ -489,6 +537,19 @@ a:active { text-decoration: none; }
     .wrapper {
         display: none;
     }
+
+    .titulo-about{
+        margin-top: 1em;
+        margin-bottom: 3em
+    }
+
+    .fotoscreadores>img{
+        margin-top: 3em;
+        bottom: 3%;
+        margin-bottom: .1em;
+        width: 45%;
+    }
+    
 }
 
 
@@ -525,6 +586,49 @@ a:active { text-decoration: none; }
         font-size: 20vh;
         transition: 1s;
     }
+
+    h7{
+        font-size: 7em;
+        font-weight: 900;
+        color: var(--rosa3);
+        font-display: swap;
+        justify-content: space-around;
+        align-items: center;
+        line-height: 7rem;
+        margin-bottom: 3em
+    }
+
+    h8{
+        margin-top: 3em;
+        font-size: 2em;
+        color: #96D289;
+        align-items: center;
+    }
+
+    #about {
+        padding: 6rem 4rem;
+    }
+
+    .titulo-about{
+        margin-bottom: 2em
+    }
+    
+    .fotoscreadores{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .fotoscreadores>img{
+        margin-top: 3em;
+        bottom: 3%;
+        margin-bottom: 3em;
+        width: 45%;
+    }
+    
+
 }
 
 
@@ -655,6 +759,47 @@ a:active { text-decoration: none; }
 
     .btn i {
         color: white;
+    }
+
+    h7{
+        font-size: 5em;
+        font-weight: 900;
+        color: var(--rosa3);
+        font-display: swap;
+        justify-content: space-around;
+        align-items: center;
+        line-height: 4rem;
+        padding-bottom: 2rem;
+    }
+
+    h8{
+        margin-top: 3em;
+        font-size: 1em;
+        color: black;
+        align-items: center;
+    }
+
+    #about {
+        padding: 6rem 4rem;
+    }
+
+    .titulo-about{
+        margin-bottom: 1em
+    }
+    
+    .fotoscreadores{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .fotoscreadores>img{
+        margin-top: 3em;
+        bottom: 3%;
+        margin-bottom: .1em;
+        width: 100%;
     }
 }
 
@@ -791,6 +936,24 @@ a:active { text-decoration: none; }
     .btn i {
         color: white;
     }
+
+    h7{
+        font-size: 2.5em;
+        font-weight: 900;
+        color: var(--rosa3);
+        font-display: swap;
+        justify-content: space-around;
+        align-items: center;
+        line-height: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    h8{
+        margin-top: 3em;
+        font-size: 1em;
+        color: black;
+        align-items: center;
+    }
 }
 
 
@@ -830,44 +993,4 @@ a:active { text-decoration: none; }
     grid-auto-rows: 360px;
 }
 
-h7{
-
-font-size: 14em;
-font-weight: 900;
-color: #96D289;
-font-display: swap;
-justify-content: space-around;
-align-items: center;
-margin-bottom: 3em
-}
-
-h8{
-    margin-top: 3em;
-    font-size: 3em;
-    color: #96D289;
-    align-items: center;
-    
-}
-
-.fotoscreadores{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    
-    
-}
-
-.fotoscreadores>img{
-    
-    margin-top: 4em;
-    bottom: 3%;
-    margin-bottom: 4em;
-
-}
-
-.fotoscreadores .box:hover {
-    box-shadow: 1px 1px 10px 4px var(--verde3);
-}
 
