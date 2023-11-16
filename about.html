@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap y css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <!-- Nombre -->
+        <title>CASEIFY</title>
+        <!-- Tipografia -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <script src="https://kit.fontawesome.com/baafaebf8a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="icon" type="image/jpg" href="img\logofunda.png"/>
+    </head>
+
+    <header>
+
+        <nav id="menu">
+            <div class="menu-text">
+                <div class="menu_logo">
+                    <a class="logo-caseify" onclick="location.reload(true);">
+                        <i class="fa-solid fa-mobile" onclick="locationreload()"></i>
+                    </a>
+                </div>
+                <div class="dropdown-center">
+                    <button type="button" class="inicio" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                        <a href="">INICIO</a>
+                      </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><button class="dropdown-item" type="button">
+                        <a href="#coleccion">COLECCIONES</a>
+                        </button></li>
+                      <li><button class="dropdown-item" type="button">
+                        <a href="#popular">POPULARES</a>
+                      </button></li>
+                      <li><button class="dropdown-item" type="button">
+                        <a href="#review">RESEÑAS</a>
+                      </button></li>
+                    </ul>
+                </div>
+                <a href="catalogo.html">CATÁLOGO</a>
+                <a href="#about.html">SOBRE NOSOTROS</a>
+            </div>
+        </nav>
+
+        <input type="checkbox" id="active">
+        <label for="active" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <div class="wrapper">
+            <ul>
+              <li><a href="#coleccion">COLECCIONES</a></li>
+              <li><a href="#popular">POPULARES</a></li>
+              <li><a href="#review">RESEÑAS</a></li>
+              <li><a href="catalogo.html">CATÁLOGO</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <body>
+      
+
+          <h7>SOBRE NOSOTROS</h7>
+
+          <h8>Caseify es una marca de fundas de móvil que fue fundada por dos chicos epañoles en Finlandia, en 2017. En Caseify contamos con un equipo profesional amplio que te ayudará en cualquier duda que tengas sobre nuestros productos o nuestros servicios.</h8>
+  
+       <div class="fotoscreadores">
+
+               <img src="img\fotojon.png" alt="">
+
+             <img src="img\fotovalencia.jpg" alt="">
+
+        </div>
+
+
+
+
+
+
+
+       
+
+            
+    </body>
+
+
+  <!-- Footer -->
+  <footer class="bg text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-floating m-1" href="https://www.facebook.com/" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-floating m-1" href="https://twitter.com/home" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-floating m-1" href="https://www.google.com/" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn  btn-floating m-1" href="https://www.instagram.com/" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn  btn-floating m-1" href="https://www.linkedin.com/feed/" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-floating m-1" href="https://github.com/" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>APÚNTATE A NUESTRA NEWSLETTER</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-black mb-4">
+                <input type="email" id="form5Example2" class="form-control" />
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                SUSCRÍBETE
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+    </script>  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+    <script type="module">
+    import swiper from 'https://cdn.jsdelivr.net/npm/swiper@11.0.4/+esm'
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+        if (!window.jQuery) document.write('<script src="js/jquery-2.2.1-min.js"><//script>');
+    </script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+</html>
