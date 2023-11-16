@@ -163,4 +163,3 @@ const makeSpark = (center, rotation) => {
   div.style.animation = `${aniName} 500ms ease-out both`;
 
   document.body.append(div);
-};
